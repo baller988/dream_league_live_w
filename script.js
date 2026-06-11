@@ -1,7 +1,7 @@
 const downloadConfig = {
-  url: 'https://example.com/dream-league-live.apk',
+  url: 'downloads/dream-league-live.apk',
   version: '2.3.1',
-  size: '32 MB',
+  size: '64 MB',
   android: '8.0+'
 };
 
