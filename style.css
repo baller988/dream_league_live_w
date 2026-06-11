@@ -827,6 +827,60 @@ p {
     width: calc(100% - 1.5rem);
   }
 
+  h1 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+  }
+
+  h2 {
+    font-size: clamp(1.4rem, 3vw, 2rem);
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  .brand span {
+    font-size: 0.9rem;
+  }
+
+  .brand small {
+    font-size: 0.7rem;
+  }
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .hero-section {
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .hero-text {
+    font-size: 0.95rem;
+  }
+
+  .eyebrow {
+    font-size: 0.7rem;
+  }
+
+  .hero-stats {
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+  }
+
+  .hero-stats div {
+    padding: 0.85rem 1rem;
+  }
+
+  .hero-stats strong {
+    font-size: 1.1rem;
+  }
+
+  .hero-stats span {
+    font-size: 0.75rem;
+  }
+
   .hero-stats div,
   .download-meta,
   .tournament-meta {
@@ -834,7 +888,7 @@ p {
   }
 
   .phone-mockup {
-    min-height: 420px;
+    min-height: 320px;
   }
 
   .video-overlay {
@@ -844,5 +898,1460 @@ p {
 
   .download-meta {
     gap: 0.8rem;
+  }
+
+  .btn {
+    padding: 0.85rem 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  .btn-large {
+    padding: 0.9rem 1.5rem;
+  }
+
+  .section-header {
+    margin: 0 auto 2rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  .feature-card {
+    min-height: 160px;
+  }
+
+  .feature-card p {
+    font-size: 0.9rem;
+  }
+
+  .glass-card {
+    padding: 1.5rem;
+  }
+
+  .hero-card {
+    padding: 1.5rem;
+  }
+
+  .scoreboard {
+    gap: 0.75rem;
+  }
+
+  .scoreboard div {
+    padding: 0.85rem 1rem;
+  }
+
+  .scoreboard strong {
+    font-size: 1.5rem;
+  }
+
+  .scoreboard p {
+    font-size: 0.8rem;
+  }
+
+  .hero-card-title {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1.2rem;
+  }
+
+  .hero-card-title strong {
+    font-size: 1.3rem;
+  }
+
+  .hero-card-footer {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .download-copy {
+    padding: 1.5rem;
+  }
+
+  .download-meta div {
+    padding: 0.9rem 1rem;
+  }
+
+  .install-instructions h3 {
+    font-size: 1rem;
+  }
+
+  .install-instructions ol {
+    font-size: 0.9rem;
+  }
+
+  .contact-list {
+    gap: 0.8rem;
+  }
+
+  .contact-item {
+    padding: 0.9rem 1rem;
+  }
+
+  .nav-wrap {
+    padding: 0.75rem 0;
+    gap: 0.75rem;
+  }
+
+  .logo-mark {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .container {
+    width: calc(100% - 1.2rem);
+  }
+
+  h1 {
+    font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+  }
+
+  h2 {
+    font-size: clamp(1.2rem, 2.8vw, 1.8rem);
+  }
+
+  .brand span {
+    font-size: 0.85rem;
+  }
+
+  .brand small {
+    font-size: 0.65rem;
+  }
+
+  .brand {
+    gap: 0.7rem;
+  }
+
+  .nav-wrap {
+    padding: 0.7rem 0;
+    gap: 0.6rem;
+  }
+
+  .logo-mark {
+    width: 38px;
+    height: 38px;
+    font-size: 0.95rem;
+  }
+
+  .site-nav {
+    gap: 1rem;
+  }
+
+  .nav-toggle span {
+    width: 24px;
+    height: 2px;
+    margin: 5px 0;
+  }
+
+  .section {
+    padding: 2.5rem 0;
+  }
+
+  .hero-section {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .eyebrow {
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    margin-bottom: 0.8rem;
+  }
+
+  .hero-text {
+    font-size: 0.9rem;
+    margin: 1.2rem 0 1.5rem;
+  }
+
+  .hero-actions {
+    gap: 0.75rem;
+  }
+
+  .btn {
+    padding: 0.8rem 1.3rem;
+    font-size: 0.9rem;
+  }
+
+  .hero-stats {
+    gap: 0.6rem;
+    margin-top: 1.2rem;
+  }
+
+  .hero-stats div {
+    padding: 0.75rem 0.9rem;
+  }
+
+  .hero-stats strong {
+    font-size: 1rem;
+  }
+
+  .hero-stats span {
+    font-size: 0.7rem;
+  }
+
+  .section-header {
+    margin: 0 auto 1.5rem;
+  }
+
+  .section-header p {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .feature-card {
+    min-height: 140px;
+    padding: 1.25rem;
+  }
+
+  .feature-card h3 {
+    margin-bottom: 0.7rem;
+    font-size: 0.95rem;
+  }
+
+  .feature-card p {
+    font-size: 0.85rem;
+  }
+
+  .glass-card {
+    padding: 1.25rem;
+    border-radius: 24px;
+  }
+
+  .hero-card {
+    padding: 1.25rem;
+  }
+
+  .hero-card-title {
+    gap: 0.7rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-card-title span {
+    font-size: 0.75rem;
+  }
+
+  .hero-card-title strong {
+    font-size: 1.15rem;
+  }
+
+  .scoreboard {
+    gap: 0.6rem;
+  }
+
+  .scoreboard div {
+    padding: 0.75rem 0.85rem;
+  }
+
+  .scoreboard strong {
+    font-size: 1.3rem;
+  }
+
+  .scoreboard p {
+    font-size: 0.75rem;
+    margin: 0 0 0.4rem;
+  }
+
+  .versus {
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+  }
+
+  .hero-card-footer {
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .download-grid {
+    gap: 1.5rem;
+  }
+
+  .download-copy {
+    padding: 1.25rem;
+  }
+
+  .download-meta {
+    gap: 0.7rem;
+    margin: 1.25rem 0 1.5rem;
+  }
+
+  .download-meta div {
+    padding: 0.8rem 0.9rem;
+  }
+
+  .download-meta strong {
+    font-size: 0.8rem;
+  }
+
+  .download-meta span {
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+  }
+
+  .btn-large {
+    padding: 0.85rem 1.25rem;
+    font-size: 0.9rem;
+  }
+
+  .install-instructions {
+    margin-top: 1.2rem;
+  }
+
+  .install-instructions h3 {
+    font-size: 0.95rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .install-instructions ol {
+    font-size: 0.85rem;
+    padding-left: 1.1rem;
+  }
+
+  .install-instructions li {
+    margin-bottom: 0.6rem;
+  }
+
+  .phone-mockup {
+    min-height: 300px;
+    padding: 1.5rem;
+    border-radius: 32px;
+  }
+
+  .phone-screen {
+    height: 30%;
+  }
+
+  .stream-grid {
+    gap: 1.5rem;
+  }
+
+  .stream-copy {
+    padding: 1.25rem;
+  }
+
+  .stream-copy ul {
+    margin: 1.2rem 0;
+    gap: 0.7rem;
+  }
+
+  .stream-copy li {
+    padding-left: 1.5rem;
+  }
+
+  .stream-copy li::before {
+    width: 8px;
+    height: 8px;
+    top: 0.55rem;
+  }
+
+  .stream-actions {
+    gap: 0.75rem;
+  }
+
+  .stream-preview {
+    min-height: 280px;
+  }
+
+  .stream-video {
+    min-height: 240px;
+  }
+
+  .video-overlay {
+    padding: 0.9rem;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+  }
+
+  .video-overlay span {
+    font-size: 0.8rem;
+  }
+
+  .video-overlay p {
+    font-size: 0.9rem;
+  }
+
+  .screenshots-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .screenshot-card {
+    height: 280px;
+  }
+
+  .about-grid {
+    gap: 1.5rem;
+  }
+
+  .about-copy {
+    padding: 1.25rem;
+  }
+
+  .about-copy ul {
+    margin: 1.2rem 0 0;
+    gap: 0.85rem;
+  }
+
+  .about-copy li {
+    padding-left: 1.4rem;
+  }
+
+  .about-copy li::before {
+    width: 8px;
+    height: 8px;
+    top: 0.6rem;
+  }
+
+  .about-highlights {
+    gap: 1rem;
+  }
+
+  .highlight-card {
+    padding: 1.25rem;
+  }
+
+  .highlight-card h3 {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+
+  .contact-grid {
+    gap: 1.5rem;
+  }
+
+  .contact-info {
+    padding: 1.25rem;
+  }
+
+  .contact-info h2 {
+    font-size: 1.3rem;
+  }
+
+  .contact-list {
+    gap: 0.75rem;
+    margin-top: 1.2rem;
+  }
+
+  .contact-item {
+    padding: 0.85rem 0.95rem;
+  }
+
+  .contact-item span {
+    font-size: 0.8rem;
+  }
+
+  .contact-item strong {
+    font-size: 0.95rem;
+  }
+
+  .contact-form {
+    padding: 1.25rem;
+  }
+
+  .contact-form h3 {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+
+  .contact-form label {
+    gap: 0.5rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.85rem 0.9rem;
+    font-size: 0.9rem;
+  }
+
+  .site-footer {
+    padding: 1.5rem 0 0.8rem;
+  }
+
+  .footer-grid {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-brand {
+    font-size: 1rem;
+  }
+
+  .footer-grid > div:first-child p {
+    font-size: 0.85rem;
+  }
+
+  .social-links {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .footer-bottom p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .container {
+    width: calc(100% - 1.1rem);
+  }
+
+  h1 {
+    font-size: clamp(1.35rem, 3.2vw, 2rem);
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: clamp(1.1rem, 2.6vw, 1.65rem);
+  }
+
+  h3 {
+    font-size: 0.95rem;
+  }
+
+  .brand span {
+    font-size: 0.8rem;
+  }
+
+  .brand small {
+    font-size: 0.6rem;
+  }
+
+  .brand {
+    gap: 0.6rem;
+  }
+
+  .nav-wrap {
+    padding: 0.6rem 0;
+  }
+
+  .logo-mark {
+    width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+
+  .section {
+    padding: 2rem 0;
+  }
+
+  .hero-section {
+    padding-top: 1.2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .eyebrow {
+    font-size: 0.6rem;
+    letter-spacing: 0.18em;
+    margin-bottom: 0.7rem;
+  }
+
+  .hero-text {
+    font-size: 0.88rem;
+    margin: 1rem 0 1.2rem;
+  }
+
+  p {
+    font-size: 0.88rem;
+  }
+
+  .hero-stats {
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .hero-stats div {
+    padding: 0.7rem 0.8rem;
+  }
+
+  .hero-stats strong {
+    font-size: 0.95rem;
+  }
+
+  .hero-stats span {
+    font-size: 0.65rem;
+  }
+
+  .hero-actions {
+    gap: 0.6rem;
+  }
+
+  .btn {
+    padding: 0.75rem 1.2rem;
+    font-size: 0.88rem;
+  }
+
+  .section-header {
+    margin: 0 auto 1.2rem;
+  }
+
+  .section-header h2 {
+    font-size: clamp(1.05rem, 2.4vw, 1.5rem);
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .feature-card {
+    min-height: 130px;
+    padding: 1.1rem;
+  }
+
+  .feature-card h3 {
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .feature-card p {
+    font-size: 0.8rem;
+  }
+
+  .glass-card {
+    padding: 1.1rem;
+    border-radius: 22px;
+  }
+
+  .hero-card {
+    padding: 1.1rem;
+  }
+
+  .hero-card-title {
+    gap: 0.6rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .hero-card-title span {
+    font-size: 0.7rem;
+  }
+
+  .hero-card-title strong {
+    font-size: 1.05rem;
+  }
+
+  .scoreboard {
+    gap: 0.5rem;
+  }
+
+  .scoreboard div {
+    padding: 0.7rem 0.75rem;
+  }
+
+  .scoreboard strong {
+    font-size: 1.2rem;
+  }
+
+  .scoreboard p {
+    font-size: 0.7rem;
+    margin: 0 0 0.3rem;
+  }
+
+  .versus {
+    font-size: 0.8rem;
+  }
+
+  .hero-card-footer {
+    margin-top: 0.7rem;
+    font-size: 0.75rem;
+  }
+
+  .download-copy {
+    padding: 1.1rem;
+  }
+
+  .download-meta {
+    gap: 0.6rem;
+    margin: 1rem 0 1.2rem;
+  }
+
+  .download-meta div {
+    padding: 0.75rem 0.85rem;
+  }
+
+  .download-meta strong {
+    font-size: 0.75rem;
+  }
+
+  .download-meta span {
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+  }
+
+  .btn-large {
+    padding: 0.8rem 1.2rem;
+    font-size: 0.88rem;
+  }
+
+  .install-instructions h3 {
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .install-instructions ol {
+    font-size: 0.8rem;
+    padding-left: 1rem;
+  }
+
+  .install-instructions li {
+    margin-bottom: 0.5rem;
+  }
+
+  .phone-mockup {
+    min-height: 280px;
+    padding: 1.2rem;
+  }
+
+  .stream-copy {
+    padding: 1.1rem;
+  }
+
+  .stream-copy ul {
+    margin: 1rem 0;
+    gap: 0.6rem;
+  }
+
+  .stream-copy li {
+    padding-left: 1.3rem;
+    font-size: 0.85rem;
+  }
+
+  .stream-copy li::before {
+    width: 7px;
+    height: 7px;
+    top: 0.5rem;
+  }
+
+  .stream-preview {
+    min-height: 260px;
+  }
+
+  .stream-video {
+    min-height: 220px;
+  }
+
+  .screenshot-card {
+    height: 260px;
+  }
+
+  .about-copy {
+    padding: 1.1rem;
+  }
+
+  .about-copy ul {
+    margin: 1rem 0 0;
+    gap: 0.75rem;
+  }
+
+  .about-copy li {
+    padding-left: 1.3rem;
+    font-size: 0.85rem;
+  }
+
+  .about-copy li::before {
+    width: 7px;
+    height: 7px;
+    top: 0.55rem;
+  }
+
+  .highlight-card {
+    padding: 1.1rem;
+  }
+
+  .highlight-card h3 {
+    font-size: 0.95rem;
+  }
+
+  .contact-info {
+    padding: 1.1rem;
+  }
+
+  .contact-info h2 {
+    font-size: 1.2rem;
+  }
+
+  .contact-list {
+    gap: 0.6rem;
+    margin-top: 1rem;
+  }
+
+  .contact-item {
+    padding: 0.8rem 0.9rem;
+  }
+
+  .contact-item span {
+    font-size: 0.75rem;
+  }
+
+  .contact-item strong {
+    font-size: 0.9rem;
+  }
+
+  .contact-form {
+    padding: 1.1rem;
+  }
+
+  .footer-bottom p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    width: calc(100% - 1rem);
+  }
+
+  h1 {
+    font-size: clamp(1.25rem, 3vw, 1.85rem);
+  }
+
+  h2 {
+    font-size: clamp(1rem, 2.4vw, 1.5rem);
+  }
+
+  h3 {
+    font-size: 0.9rem;
+  }
+
+  .brand span {
+    font-size: 0.75rem;
+  }
+
+  .brand small {
+    display: none;
+  }
+
+  .brand {
+    gap: 0.5rem;
+  }
+
+  .nav-wrap {
+    padding: 0.5rem 0;
+    gap: 0.5rem;
+  }
+
+  .logo-mark {
+    width: 34px;
+    height: 34px;
+    font-size: 0.85rem;
+  }
+
+  .site-nav {
+    gap: 1rem;
+  }
+
+  .nav-toggle span {
+    width: 22px;
+    margin: 4px 0;
+  }
+
+  .section {
+    padding: 1.8rem 0;
+  }
+
+  .hero-section {
+    padding-top: 1rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .eyebrow {
+    font-size: 0.55rem;
+    letter-spacing: 0.16em;
+    margin-bottom: 0.6rem;
+  }
+
+  .hero-text {
+    font-size: 0.85rem;
+    margin: 0.9rem 0 1rem;
+    line-height: 1.6;
+  }
+
+  p {
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  .hero-stats {
+    gap: 0.4rem;
+    margin-top: 0.9rem;
+  }
+
+  .hero-stats div {
+    padding: 0.65rem 0.75rem;
+  }
+
+  .hero-stats strong {
+    font-size: 0.9rem;
+  }
+
+  .hero-stats span {
+    font-size: 0.6rem;
+  }
+
+  .hero-actions {
+    gap: 0.5rem;
+  }
+
+  .btn {
+    padding: 0.7rem 1.1rem;
+    font-size: 0.85rem;
+  }
+
+  .section-header {
+    margin: 0 auto 1rem;
+  }
+
+  .feature-grid {
+    gap: 0.9rem;
+  }
+
+  .feature-card {
+    min-height: 120px;
+    padding: 1rem;
+  }
+
+  .feature-card h3 {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .feature-card p {
+    font-size: 0.75rem;
+  }
+
+  .glass-card {
+    padding: 1rem;
+    border-radius: 20px;
+  }
+
+  .hero-card {
+    padding: 1rem;
+  }
+
+  .hero-card-title {
+    gap: 0.5rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .hero-card-title span {
+    font-size: 0.65rem;
+  }
+
+  .hero-card-title strong {
+    font-size: 1rem;
+  }
+
+  .scoreboard {
+    gap: 0.4rem;
+  }
+
+  .scoreboard div {
+    padding: 0.65rem 0.7rem;
+  }
+
+  .scoreboard strong {
+    font-size: 1.1rem;
+  }
+
+  .scoreboard p {
+    font-size: 0.65rem;
+  }
+
+  .versus {
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+  }
+
+  .hero-card-footer {
+    margin-top: 0.6rem;
+    font-size: 0.7rem;
+    line-height: 1.5;
+  }
+
+  .download-copy {
+    padding: 1rem;
+  }
+
+  .download-meta {
+    gap: 0.5rem;
+    margin: 0.9rem 0 1rem;
+  }
+
+  .download-meta div {
+    padding: 0.7rem 0.8rem;
+  }
+
+  .download-meta strong {
+    font-size: 0.7rem;
+  }
+
+  .download-meta span {
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+  }
+
+  .btn-large {
+    padding: 0.75rem 1.1rem;
+    font-size: 0.85rem;
+  }
+
+  .install-instructions h3 {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .install-instructions ol {
+    font-size: 0.75rem;
+    padding-left: 0.9rem;
+  }
+
+  .install-instructions li {
+    margin-bottom: 0.4rem;
+  }
+
+  .phone-mockup {
+    min-height: 260px;
+    padding: 1rem;
+    border-radius: 28px;
+  }
+
+  .stream-copy {
+    padding: 1rem;
+  }
+
+  .stream-copy ul {
+    margin: 0.9rem 0;
+    gap: 0.5rem;
+  }
+
+  .stream-copy li {
+    padding-left: 1.2rem;
+    font-size: 0.8rem;
+  }
+
+  .stream-copy li::before {
+    width: 6px;
+    height: 6px;
+    top: 0.45rem;
+  }
+
+  .stream-preview {
+    min-height: 240px;
+  }
+
+  .stream-video {
+    min-height: 200px;
+    border-radius: 22px;
+  }
+
+  .screenshot-card {
+    height: 240px;
+    border-radius: 28px;
+  }
+
+  .about-copy {
+    padding: 1rem;
+  }
+
+  .about-copy ul {
+    margin: 0.9rem 0 0;
+    gap: 0.65rem;
+  }
+
+  .about-copy li {
+    padding-left: 1.2rem;
+    font-size: 0.8rem;
+  }
+
+  .about-copy li::before {
+    width: 6px;
+    height: 6px;
+    top: 0.45rem;
+  }
+
+  .highlight-card {
+    padding: 1rem;
+  }
+
+  .highlight-card h3 {
+    font-size: 0.9rem;
+  }
+
+  .contact-info {
+    padding: 1rem;
+  }
+
+  .contact-info h2 {
+    font-size: 1.1rem;
+  }
+
+  .contact-list {
+    gap: 0.5rem;
+    margin-top: 0.9rem;
+  }
+
+  .contact-item {
+    padding: 0.75rem 0.85rem;
+  }
+
+  .contact-item span {
+    font-size: 0.7rem;
+  }
+
+  .contact-item strong {
+    font-size: 0.85rem;
+  }
+
+  .contact-form {
+    padding: 1rem;
+  }
+
+  .contact-form h3 {
+    font-size: 0.95rem;
+  }
+
+  .contact-form label {
+    gap: 0.45rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.75rem 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .site-footer {
+    padding: 1.2rem 0 0.6rem;
+  }
+
+  .footer-brand {
+    font-size: 0.95rem;
+  }
+
+  .social-links {
+    gap: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .footer-bottom p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: calc(100% - 0.9rem);
+  }
+
+  h1 {
+    font-size: clamp(1.15rem, 2.8vw, 1.75rem);
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: clamp(0.95rem, 2.2vw, 1.4rem);
+  }
+
+  h3 {
+    font-size: 0.85rem;
+  }
+
+  .brand span {
+    font-size: 0.7rem;
+  }
+
+  .brand small {
+    display: none;
+  }
+
+  .nav-wrap {
+    padding: 0.5rem 0;
+    gap: 0.4rem;
+  }
+
+  .logo-mark {
+    width: 32px;
+    height: 32px;
+    font-size: 0.8rem;
+  }
+
+  .section {
+    padding: 1.5rem 0;
+  }
+
+  .hero-section {
+    padding-top: 0.8rem;
+    padding-bottom: 1rem;
+  }
+
+  .eyebrow {
+    font-size: 0.5rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-text {
+    font-size: 0.8rem;
+    margin: 0.8rem 0 0.9rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .hero-stats {
+    gap: 0.3rem;
+    margin-top: 0.8rem;
+  }
+
+  .hero-stats div {
+    padding: 0.6rem 0.7rem;
+  }
+
+  .hero-stats strong {
+    font-size: 0.8rem;
+  }
+
+  .hero-stats span {
+    font-size: 0.55rem;
+  }
+
+  .btn {
+    padding: 0.65rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .feature-card {
+    min-height: 110px;
+    padding: 0.9rem;
+  }
+
+  .feature-card h3 {
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .feature-card p {
+    font-size: 0.7rem;
+  }
+
+  .glass-card {
+    padding: 0.9rem;
+  }
+
+  .hero-card {
+    padding: 0.9rem;
+  }
+
+  .hero-card-title {
+    gap: 0.4rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .hero-card-title span {
+    font-size: 0.6rem;
+  }
+
+  .hero-card-title strong {
+    font-size: 0.95rem;
+  }
+
+  .scoreboard {
+    gap: 0.3rem;
+  }
+
+  .scoreboard div {
+    padding: 0.6rem 0.65rem;
+  }
+
+  .scoreboard strong {
+    font-size: 1rem;
+  }
+
+  .scoreboard p {
+    font-size: 0.6rem;
+  }
+
+  .versus {
+    font-size: 0.7rem;
+  }
+
+  .hero-card-footer {
+    margin-top: 0.5rem;
+    font-size: 0.65rem;
+  }
+
+  .download-copy {
+    padding: 0.9rem;
+  }
+
+  .download-meta {
+    gap: 0.4rem;
+    margin: 0.8rem 0 0.9rem;
+  }
+
+  .download-meta div {
+    padding: 0.65rem 0.75rem;
+  }
+
+  .download-meta strong {
+    font-size: 0.65rem;
+  }
+
+  .download-meta span {
+    font-size: 0.75rem;
+    margin-top: 0.2rem;
+  }
+
+  .btn-large {
+    padding: 0.7rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .install-instructions h3 {
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .install-instructions ol {
+    font-size: 0.7rem;
+    padding-left: 0.8rem;
+  }
+
+  .install-instructions li {
+    margin-bottom: 0.3rem;
+  }
+
+  .phone-mockup {
+    min-height: 240px;
+    padding: 0.9rem;
+  }
+
+  .stream-copy {
+    padding: 0.9rem;
+  }
+
+  .stream-copy ul {
+    margin: 0.8rem 0;
+    gap: 0.4rem;
+  }
+
+  .stream-copy li {
+    padding-left: 1.1rem;
+    font-size: 0.75rem;
+  }
+
+  .stream-copy li::before {
+    width: 5px;
+    height: 5px;
+    top: 0.4rem;
+  }
+
+  .stream-preview {
+    min-height: 220px;
+  }
+
+  .stream-video {
+    min-height: 180px;
+  }
+
+  .screenshot-card {
+    height: 220px;
+  }
+
+  .about-copy {
+    padding: 0.9rem;
+  }
+
+  .about-copy ul {
+    margin: 0.8rem 0 0;
+    gap: 0.5rem;
+  }
+
+  .about-copy li {
+    padding-left: 1.1rem;
+    font-size: 0.75rem;
+  }
+
+  .about-copy li::before {
+    width: 5px;
+    height: 5px;
+    top: 0.4rem;
+  }
+
+  .highlight-card {
+    padding: 0.9rem;
+  }
+
+  .contact-info {
+    padding: 0.9rem;
+  }
+
+  .contact-info h2 {
+    font-size: 1rem;
+  }
+
+  .contact-list {
+    gap: 0.4rem;
+    margin-top: 0.8rem;
+  }
+
+  .contact-item {
+    padding: 0.7rem 0.8rem;
+  }
+
+  .contact-item span {
+    font-size: 0.65rem;
+  }
+
+  .contact-item strong {
+    font-size: 0.8rem;
+  }
+
+  .contact-form {
+    padding: 0.9rem;
+  }
+
+  .contact-form label {
+    gap: 0.4rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.7rem 0.75rem;
+    font-size: 0.8rem;
+  }
+
+  .site-footer {
+    padding: 1rem 0 0.5rem;
+  }
+
+  .footer-brand {
+    font-size: 0.9rem;
+  }
+
+  .social-links {
+    gap: 0.7rem;
+    font-size: 0.75rem;
+  }
+
+  .footer-bottom p {
+    font-size: 0.65rem;
   }
 }
