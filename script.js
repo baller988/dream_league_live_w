@@ -8,6 +8,7 @@ const downloadConfig = {
 const navToggle = document.querySelector('.nav-toggle');
 const siteNav = document.querySelector('.site-nav');
 const revealElements = document.querySelectorAll('.reveal');
+const counters = document.querySelectorAll('[data-count]');
 const currentYear = document.getElementById('current-year');
 const downloadButton = document.getElementById('download-button');
 
@@ -25,10 +26,31 @@ function handleNavToggle() {
 function handleScrollReveal() {
   const viewportHeight = window.innerHeight;
   revealElements.forEach((element) => {
-    const offset = element.getBoundingClientRect().top;
-    if (offset < viewportHeight - 120) {
+    const rect = element.getBoundingClientRect();
+    if (rect.top < viewportHeight - 120) {
       element.classList.add('visible');
     }
+  });
+}
+
+function animateCounters() {
+  counters.forEach((counter) => {
+    if (counter.dataset.animated) return;
+    const parent = counter.closest('.reveal');
+    if (parent && !parent.classList.contains('visible')) return;
+    const target = Number(counter.dataset.count);
+    let current = 0;
+    const step = Math.max(1, Math.floor(target / 30));
+    const interval = setInterval(() => {
+      current += step;
+      if (current >= target) {
+        counter.textContent = target;
+        counter.dataset.animated = 'true';
+        clearInterval(interval);
+      } else {
+        counter.textContent = current;
+      }
+    }, 25);
   });
 }
 
@@ -39,9 +61,13 @@ function setCurrentYear() {
 }
 
 navToggle?.addEventListener('click', handleNavToggle);
-window.addEventListener('scroll', handleScrollReveal);
+window.addEventListener('scroll', () => {
+  handleScrollReveal();
+  animateCounters();
+});
 window.addEventListener('load', () => {
   updateDownloadInfo();
   setCurrentYear();
   handleScrollReveal();
+  animateCounters();
 });
